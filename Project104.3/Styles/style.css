@@ -1,0 +1,196 @@
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+	line-height: 3rem;
+	background-color: #000000;
+
+}
+
+
+.fw-300{
+	font-weight: 300;
+	color:#000000;
+}
+
+.center-text{
+	text-align: center;
+}
+
+p{
+	font-size: 2rem;	
+}
+
+h3{
+	font-size: 1.5rem;
+	margin: 1rem 1rem 1rem 3rem;
+	
+}
+
+h2{
+	font-size: 3rem;
+	text-align: center;
+	text-decoration: underline;
+	margin: 3rem 1rem 1rem 1rem;
+}
+
+h4{
+	font-size: 2.5rem;
+	text-align: center;
+}
+
+h1{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.main-content
+{
+	max-width: 120rem; 
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.site-header {
+
+    padding: 1rem 0 3rem 0;
+}
+
+.site-header.in{
+	background-image: url(mako.png);
+	background-color: #000000;
+	background-position: center;
+	background-size: cover;
+	height: 20vh;
+	min-height: 20rem;
+	text-align: center;
+	overflow: hidden;
+
+}
+
+
+.bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 3rem;
+}
+
+.navigation a{
+	color:#ffffff;
+	text-decoration:none;
+	font-size: 2rem;
+	margin-right: 2rem;
+}
+
+.navigation a:hover{
+	color: #ff3300;
+}
+
+
+.image-size-m{
+	width: 20rem;
+	height: 20rem;
+	border-radius: .8rem;
+}
+
+.content{
+	width: 95%;
+	max-width: 120rem; 
+	margin: 0 auto;
+	background-color: #dad6d68a;
+	
+}
+
+
+
+.btn{
+	background-color: #FF4000;
+	color:white;
+	margin: 1rem auto;
+	padding: 2rem auto;
+	text-decoration:none;
+	border-radius: .5rem;
+	font-size: 1.5rem;
+	text-align: center;
+	font-weight: 700;
+	display: inline-block;
+	border:none;
+}
+
+
+
+.all-icons{   
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.icon{      
+	flex-basis: calc(33.3% - 1rem);
+	text-align: center;
+	
+}
+
+.sect{					
+	margin-bottom: 3rem;
+}
+
+
+
+label{
+	display: block;
+	font-size: 1.8rem;
+}
+
+
+textarea{
+	height: 20rem;
+	width: 80%;
+}
+
+input[type="tel"]{
+	width: 50%;
+}
+
+
+.copyright{
+	margin:0;
+}
+
+.site-footer{
+	background-image: url(mako.png);
+	margin:0rem;
+	background-position: center center;
+	background-size: cover;
+}
+
+.content-footer{
+	padding: 3rem 0;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.header-content{
+	
+	display: flex;
+	height: 80%;
+	flex-direction: column;
+	justify-content: space-between;
+	
+}
+
+.content-about{
+	height: 60rem;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-column-gap: 2rem;
+}
+
+.btn.btn-secondary.btn-lg{
+	background: #FF4000 !important;
+}
